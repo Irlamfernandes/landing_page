@@ -1,0 +1,46 @@
+body{background-color: #a18262;}
+        
+.fundo{background-image: url(imagens/graos_de_cafe.jpg);
+     background-repeat: repeat-x;
+     width: 1460px;
+     position: absolute;}
+        
+p{color: white;
+font-size: 20px;
+text-align: center;}
+
+.titulo{text-align: center;
+    background-color: black;
+    color: #a18262;
+    border: solid;
+    width: 600px;
+    height: 150px;
+    margin: 0 0 0 400px;
+    font-size: xx-large;
+    font-family: Lucida;
+    position: relative;
+    border-radius: 100%;
+    border: solid;}
+    
+.chamariz{font-size: x-large;
+    font-family: cursive;
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 1460px;}
+    
+.menu{font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;}
+
+    details > summary{cursor: pointer;}
+
+.galeria{font-size: large;
+color: white}
+
+.leitura{font-size: large;
+color: white;}
+
+iframe{height: 350px;
+width: 350px;}
