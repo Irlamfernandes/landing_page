@@ -2,45 +2,61 @@ body{background-color: #a18262;}
         
 .fundo{background-image: url(imagens/graos_de_cafe.jpg);
      background-repeat: repeat-x;
-     width: 1460px;
+     width: 100%;
      position: absolute;}
+
+.fotos_iniciais{display: flex;
+    justify-content: space-around;}
         
 p{color: white;
 font-size: 20px;
 text-align: center;}
 
-.titulo{text-align: center;
-    background-color: black;
+.titulo{background-color: black;
     color: #a18262;
     border: solid;
-    width: 600px;
-    height: 150px;
-    margin: 0 0 0 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: xx-large;
     font-family: Lucida;
     position: relative;
-    border-radius: 100%;
-    border: solid;}
+    border-radius: 100%;}
     
 .chamariz{font-size: x-large;
     font-family: cursive;
     color: white;
     position: relative;
-    text-align: center;
-    width: 1460px;}
+    text-align: center;}
     
 .menu{font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     position: relative;}
 
-    details > summary{cursor: pointer;}
+details > summary{cursor: pointer;}
 
 .galeria{font-size: large;
-color: white}
+    color: white;}
 
-.leitura{font-size: large;
+.img{display: grid;
+    grid-template-columns: repeat(6, auto);
+    margin: 2% 5% 2% 5%;}
+
+.leitura, .mapa, .contato{font-size: large;
 color: white;}
 
-iframe{height: 350px;
-width: 350px;}
+.leitura h2{text-align: center;}
+
+iframe{width: 100%;}
+
+@media only screen and (max-width: 700px) {
+
+    .fotos_iniciais{display: flex;
+        flex-direction: column;}
+    .fotos_iniciais img{width: 100%;}
+    
+    .img{display: grid;
+        grid-template-columns: repeat(1, auto)}
+    
+    .img img{width: 100%;}}
