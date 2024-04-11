@@ -1,9 +1,9 @@
 body{background-color: #a18262;}
         
 .fundo{background-image: url(imagens/graos_de_cafe.jpg);
-     background-repeat: repeat-x;
-     width: 100%;
-     position: absolute;}
+    background-repeat: repeat-x;
+    width: 99%;
+    position: absolute;}
 
 .fotos_iniciais{display: flex;
     justify-content: space-around;}
@@ -16,6 +16,7 @@ text-align: center;}
     color: #a18262;
     border: solid;
     display: flex;
+    width: 100%;
     justify-content: center;
     text-align: center;
     font-size: xx-large;
@@ -59,4 +60,10 @@ iframe{width: 100%;}
     .img{display: grid;
         grid-template-columns: repeat(1, auto)}
     
-    .img img{width: 100%;}}
+    .img img{width: 100%;}
+
+    .fundo{width: 99%;}}
+
+    @media only screen and (max-width: 400px) {
+        .fundo{width: 99%;}
+    }
